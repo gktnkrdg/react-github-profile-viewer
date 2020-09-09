@@ -1,7 +1,48 @@
 .App {
   text-align: center;
 }
+body{
+  background-color:#4E6D85;
+  background-image:linear-gradient(315deg, #2a2a72 0%, #676498 74%);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+  margin:0;
+  min-height: 100vh;
+  font-size:1.2em
+}
+.search-input{
+  background-color: #31485a;
+    border-radius: 10px;
+    border: none;
+    padding:10px;
+    font-size:1.5em
+}
+.profile-avatar{
+  border:5px solid #10B9C9;
+  border-radius:50%;
+  height:100px;
+  width: 100px;
+}
+.profile-item {
+  padding: 5px;
+  margin-top: 10px;
+  line-height: 10px;
+  color: gainsboro;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+.profile-card{
+  background-color: #3d2365;
+    background-image: linear-gradient(315deg, #301954 0%, #856caf 100%);
+  display:flex;
+  padding:1rem;
+  max-width: 800px; 
+  flex-direction: column;
 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -17,7 +58,7 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
