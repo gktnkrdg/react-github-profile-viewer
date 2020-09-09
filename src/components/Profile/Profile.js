@@ -2,8 +2,6 @@ import React, { Component } from "react";
 
 export class Profile extends Component {
   render() {
-    {
-     
         return (
           this.props.user &&
           <div class="profile-card">
@@ -18,9 +16,6 @@ export class Profile extends Component {
             {/* <div class="profile-item"> {this.props.user.created_at}</div> */}
           </div>
         );
-      
-      
-    }
   }
 }
 export default Profile;
