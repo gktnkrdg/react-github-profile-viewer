@@ -15,7 +15,7 @@ import React, { Component } from 'react'
         return (
             <div>
                 <input class="search-input" type="text" name="username"  onKeyDown={this.handleKeyDown} 
-                value={this.state.username} onChange={this.handleChange}  />
+                value={this.state.username} onChange={this.handleChange} placeholder="Search Github User"  />
             </div>
         )
     }

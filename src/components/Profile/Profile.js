@@ -15,7 +15,7 @@ export class Profile extends Component {
             <div class="profile-item"> {this.props.user.location}</div>
             <div class="profile-item"> Following:{this.props.user.following} Followers:{this.props.user.followers} Repos:{this.props.user.public_repos} </div>  
           
-            <div class="profile-item"> {this.props.user.created_at}</div>
+            {/* <div class="profile-item"> {this.props.user.created_at}</div> */}
           </div>
         );
       
