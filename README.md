@@ -10,4 +10,4 @@ https://clever-hermann-3adc80.netlify.app/
 
 - [ ]  UI Improvement
 - [ ]  Bring more information
-- [ ]  Code coverage
+- [ ]  Improving Code Quality
